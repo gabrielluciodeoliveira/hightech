@@ -1,0 +1,207 @@
+header
+{   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+    background-color: #925AFF;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--plano-fundo);
+    color: var(--color)
+}
+
+.banner
+{
+    background-image: url(high\ tech\ \(1\).png);
+    width: 390px;
+    height: 355px;
+}
+
+button
+{
+    background-color: #925AFF;
+    color: #FFF;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    height: 50px;
+}
+
+section
+{
+    text-align: center;
+    padding: 10px;
+}
+
+#info img
+{ 
+    width: 390px;
+    height: 180px;
+}
+
+.text
+{
+    position: relative;
+    bottom: -110px;
+    color: #FFF;
+    font-size: 13px;
+    height: 0px;
+}
+footer
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #925AFF;
+    width: 390px;
+    height: 120px;
+    font-size: 14px;
+}
+.info
+{
+    background-image: url("Design\ sem\ nome\ \(3\).png");
+    height: 180px;
+}
+
+.card-login
+{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding: 30px;
+    margin: 30px;
+    height: 300px;
+    border-radius: 10px;
+}
+.botao
+{
+    position: relative;
+    left: 95px;
+    width: 80px;
+}
+
+.card-login input
+{
+    padding: 6px;
+    margin: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.check
+{
+    position: relative;
+    right: 120px;
+}
+.texto
+{
+    position: relative;
+    bottom: 35px;
+    left: 30px;
+}
+
+:root
+{
+    --plano-fundo: #FFF;
+    --titulo: #000;
+}
+
+.escuro
+{
+    --plano-fundo: #000;
+    --titulo: #FFF;
+    --color: #fff;
+}
+
+.menu-desktop
+{
+    display: none;
+}
+
+.txt2
+{
+    display: none;
+}
+.icon1
+{
+    display: none;
+}
+
+@media (min-width: 1280px)
+{
+    .menu
+    {
+        display: none;  
+    }
+
+    .menu-desktop
+    {
+        display: flex;
+    }
+   
+    .banner
+    {
+        background-image: url("high\ tech\ \(2\).png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+    }
+
+    .info
+    {
+        width: 100%;
+    }   
+    #info img
+    {
+        width: 100%;
+    }
+
+    footer 
+    {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .txt2
+    {
+        display: flex;
+    }
+    .menu-desktop a
+    {
+        display: flex;
+        padding: 0 50px;
+        text-decoration: none;
+    }
+    .menu-desktop input
+    {
+        position: relative;
+        border-radius: 10px;
+        border: none;
+        width: 400px;
+        left: 100px;
+    }
+
+    .icon1
+    {
+        display: flex;
+        position: relative;
+        left: 280px;    
+    } 
+
+    .card-login
+    {
+        position: relative;
+        left: 600px;
+        display: flex;
+        width: 500px;
+        justify-content: center;
+        
+    }
+}
